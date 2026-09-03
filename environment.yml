@@ -1,0 +1,19 @@
+name: wine-quality-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - hyperopt
+  - ipykernel
+  - jupyter
+  - keras
+  - mlflow
+  - numpy
+  - pandas
+  - scikit-learn
+  - tensorflow
+  - pip
+  - pip:
+      - mlflow
+      - anyio==4.14.2
+prefix: /Users/farzam/miniconda3/envs/wine-quality-env
