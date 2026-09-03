@@ -1,0 +1,165 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+
+# venv / virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# Conda environments created inside the project
+.conda/
+conda-meta/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+
+# ============================================================
+# MLflow
+# ============================================================
+
+# Local MLflow tracking data
+mlruns/
+**/mlruns/
+
+# Local MLflow artifact storage
+mlartifacts/
+**/mlartifacts/
+
+# MLflow local database
+mlflow.db
+**/mlflow.db
+
+# Serialized ML models
+*.skops
+
+
+# ============================================================
+# Machine Learning Artifacts
+# ============================================================
+
+# Common serialized model formats
+*.pkl
+*.pickle
+*.joblib
+
+# Deep learning models
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# TensorBoard
+runs/
+**/runs/
+
+# Cache
+.cache/
+
+
+# ============================================================
+# Data
+# ============================================================
+
+# Uncomment these if datasets should NOT be committed
+# data/
+# datasets/
+
+# Large/raw data formats
+*.parquet
+*.feather
+
+
+# ============================================================
+# Testing / Coverage
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+
+# ============================================================
+# Type checking / Linters
+# ============================================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+
+# ============================================================
+# IDEs / Editors
+# ============================================================
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+
+# ============================================================
+# Operating System
+# ============================================================
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Logs / Temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
